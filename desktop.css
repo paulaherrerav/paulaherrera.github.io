@@ -1,0 +1,170 @@
+@media screen and (min-width: 900px) {
+  header {
+    margin-top: 120px;
+  }
+  header h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    font-size: 64px;
+    line-height: 84px;
+  }
+  header p {
+    margin-top: 0;
+  }
+
+  .nosotros {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros .venimos {
+    margin: 0;
+  }
+  .nosotros .venimos h2 {
+    margin-bottom: 24px;
+    line-height: 62px;
+  }
+  .nosotros .venimos p {
+    width: 464px;
+  }
+  .invitados .fotos-contenedor .foto-inv {
+    width: 33.3%;
+  }
+  .temas {
+    margin-bottom: 34px;
+  }
+  .temas .iconos .iconos-individuales {
+    width: 25%;
+    margin: 0;
+  }
+  .temas .iconos .iconos-individuales:nth-of-type(3) {
+    margin-top: 0;
+  }
+  .temas .iconos .iconos-individuales:last-child {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  nav {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  header {
+    margin-left: 100px;
+  }
+
+  .episodios h2 {
+    padding-top: 186px;
+    margin-left: 100px;
+  }
+  .episodios .podcasts {
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 65px;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .podcasts iframe {
+    width: 45%;
+    overflow: hidden;
+  }
+
+  .nosotros {
+    margin-top: 0px;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+  }
+  .nosotros .phone {
+    width: 457.6px;
+    top: 80px;
+  }
+  .nosotros .venimos {
+    padding-left: 62px;
+  }
+  .nosotros .venimos p {
+    width: 464px;
+  }
+  .invitados h2 {
+    margin-left: 100px;
+  }
+  .temas {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .novedades {
+    height: 518px;
+  }
+  .contacto {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    margin-left: 200px;
+  }
+  .episodios h2 {
+    margin-left: 200px;
+  }
+
+  .invitados h2 {
+    margin-left: 200px;
+  }
+  .temas {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nosotros {
+    position: relative;
+    z-index: 3;
+    margin-top: -95.5px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+  }
+  .nosotros .phone {
+    width: 457px;
+    height: 660px;
+  }
+  .nosotros .venimos {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 43px;
+  }
+  .nosotros .venimos h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 42px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #060a24;
+    margin-bottom: 24px;
+    margin-top: 64px;
+  }
+  .nosotros .venimos p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    padding-bottom: 12px;
+  }
+  .nosotros .venimos {
+    padding-left: 62px;
+  }
+}

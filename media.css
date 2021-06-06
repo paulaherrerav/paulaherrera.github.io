@@ -1,0 +1,196 @@
+@media screen and (min-width: 600px) {
+  .episodios h2 {
+    padding-top: 100px;
+  }
+  .episodios .podcasts {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .nosotros .phone {
+    width: 300px;
+  }
+  .invitados .fotos-contenedor {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .invitados .fotos-contenedor .foto-inv {
+    width: 50%;
+  }
+  .temas .iconos {
+    margin-top: 56px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .temas .iconos .iconos-individuales {
+    width: 50%;
+    margin: 0;
+  }
+  .temas .iconos .iconos-individuales:nth-of-type(3) {
+    margin-top: 30px;
+  }
+  .temas .iconos .iconos-individuales:last-child {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  nav {
+    height: 80px;
+  }
+  nav .logo {
+    width: 36px;
+    height: 36px;
+  }
+  nav .menu ul {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #ffff;
+    height: unset;
+  }
+  nav .menu ul li {
+    padding-top: 0;
+    display: inline-block;
+    margin-left: 48px;
+  }
+  nav .menu ul li a {
+    color: #060a24;
+  }
+  nav .menu input {
+    display: none;
+  }
+  nav .menu span {
+    display: none;
+  }
+  header {
+    margin-top: 80px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 628px;
+  }
+  header button {
+    color: #060a24;
+    background-color: #00f3bb;
+    border: 0px;
+    height: 48px;
+    width: 100%;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 22px;
+    height: 56px;
+    width: 226px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 56px;
+    margin-bottom: 5px;
+  }
+  .episodios h2 {
+    font-size: 48px;
+    padding-top: 130px;
+    line-height: 62px;
+  }
+  .nosotros {
+    margin-top: -70px;
+  }
+  .nosotros .phone {
+    width: 350px;
+    top: 0;
+  }
+  .nosotros .venimos h2 {
+    font-size: 48px;
+  }
+  .nosotros .venimos p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .invitados {
+    margin-top: 64px;
+  }
+  .invitados h2 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .invitados .fotos-contenedor {
+    margin-top: 36px;
+  }
+  .temas {
+    margin-top: 64px;
+  }
+  .temas h2 {
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .temas .iconos .iconos-individuales small {
+    margin-top: 16px;
+    width: 220px;
+  }
+  .novedades .contenido {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .novedades .contenido h2 {
+    font-size: 48px;
+  }
+  .novedades .contenido button {
+    color: #060a24;
+    background-color: #00f3bb;
+    border: 0px;
+    height: 48px;
+    width: 100%;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 22px;
+    height: 56px;
+    width: 226px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 345px;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 36px;
+    margin-bottom: 31px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .contacto p {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    color: #000000;
+    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+  .contacto .footer-iconos a {
+    margin-right: 36px;
+  }
+}
